@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа</title>
+    <link rel="stylesheet" href="reg.css">
+    <link rel="icon" sizes="120x120" href="Логотип/shortcut_icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="superContainer">
+        <!--HEADER-->
+        <header>
+            <!--TOP BAR-->
+            <div class="top-bar">
+                <div class="wrap">
+                    <!--LEFT SIDE-->
+                    <div class="top-bar-left-side">
+                        <ul class="top-bar-dropdown">
+                            <li>
+                                <a href="#">Русский</a>
+                                <ul>
+                                    <li><a href="#">Русский</a></li>
+                                    <li><a href="#">Русский</a></li>
+                                    <li><a href="#">Русский</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="top-bar-dropdown">  
+                            <li>
+                                <a href="#">BYN</a>
+                                <ul>
+                                    <li><a href="#">BYN</a></li>
+                                    <li><a href="#">BYN</a></li>
+                                    <li><a href="#">BYN</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--RIGHT SIDE-->
+                    <div class="top-bar-right-side">
+                        <div class="svg-icon">
+                            <img src="Иконки/профиль.svg" alt="Icon"> 
+                        </div>
+                        <a href="register.html">Регистрация</a>
+                        <a href="logIn.html">Вход</a>   
+                    </div>
+                </div>
+            </div>
+            <!--BOTTOM BAR-->
+            <div class="bottom-bar">
+                    <div class="wrap">
+                        <div class="logo">
+                            <a href="main.html"><img src="Логотип/AVshop.svg" alt="Logo"></a> 
+                        </div>
+                        <div class="search">
+                            <div class="catalog">
+                                <ul class="bottom-bar-dropdown">
+                                    <li>
+                                        <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Каталог</a>
+                                        <ul>
+                                            <li>
+                                                <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Смартфоны, ТВ и электроника</a>
+                                                <ul>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Смартфоны, аксессуары</a></li>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Аудиотехника</a></li>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Портативная аудиотехника</a></li>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Фото, видеосъемка</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Компьютеры и периферия</a>
+                                                <ul>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Компьютерная техника</a></li>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Компьютерная периферия</a></li>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Комплектующие</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <form>
+                                <input class="search_input" type="text" placeholder="Поиск..." required />
+                                <button type="submit" class="search_icon" value="Sumbit">
+                                    <img src="Иконки/поиск.svg" alt="Search">
+                                </button>
+                            </form>
+                        </div>
+                        <div class="bottom-bar-right-side">
+                            <div class="svg_icon">
+                                <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\wishlist.html"><img src="Иконки/лайк.svg" alt="Liked"></a>
+                            </div>
+                            <div class="svg_icon">
+                                <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\cart.html"><img src="Иконки/корзина 2.svg" alt="Cart"></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--BOTTOM SHADOW-->
+            <div class="bottom-shadow"></div>            
+        </header>
+
+        <!--FORM-->
+        <div class="form">
+                <p>Оформить заказ</p>
+                <form>
+                    <div>
+                        <label for="mail">Почта</label>
+                        <input type="text" name="mail" required placeholder="example@gmail.com">
+                    </div>
+                    <div>
+                        <label for="name">Имя</label>
+                        <input type="text" name="name" required placeholder="name">
+                    </div>
+                    <div>
+                        <label for="name">Адрес</label>
+                        <input type="text" name="address" required placeholder="город Минск, улица Бобруйская 25">
+                    </div>
+                    <div>
+                        <label for="name">Номер</label>
+                        <input type="text" name="number" required placeholder="+375 (33) 333 33 33">
+                    </div>
+                    <div>
+                        <label for="method">Метод оплаты</label>
+                        <select name="method" required>
+                            <option>Наличный</option>
+                            <option>Безналичный</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="com">Комментарий</label>
+                        <textarea name="com" cols="2" rows="3"></textarea>
+                    </div>
+                    <button type="submit">Заказать</button>
+                </form>
+        </div>
+
+        <!--FOOTER-->
+        <footer>
+            <!--LOGO-->
+            <div class="logo">
+                <img src="Логотип/AVshop.svg" alt="Logo"> 
+                <a>2003-2022</a>
+            </div>
+            <!--BUYER-->
+            <div class="buyer">
+                <a>Покупателю</a>
+                <ul>
+                    <li><a href="#">Права потребителя</a></li>
+                    <li><a href="#">Вопрос-ответ</a></li>
+                    <li><a href="#">Пользовательское соглашение</a></li>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+            <!--COMPANY-->
+            <div class="company">
+                <a>Компания</a>
+                <ul>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">О проекте</a></li>
+                    <li><a href="#">Наши партнёры</a></li>
+                    <li><a href="#">Обратная связь</a></li>
+                </ul>
+            </div>
+            <!--SELLER-->
+            <div class="seller">
+                <a>Продавцу</a>
+                <ul>
+                    <li><a href="#">Продавать на AVshop.by</a></li>
+                    <li><a href="#">Создать свой магазин</a></li>
+                    <li><a href="#">Реклама</a></li>
+                    <li><a href="#">Справка и FAQ</a></li>
+                </ul>
+            </div>
+            <!--CONTACTS-->
+            <div class="contacts">
+                <a>Контакты</a>
+                <a class="number">+375 (29) 330 05 06</a>
+                <div class="social">
+                    <a href="#"><img src="Главная/inst.png" alt="Instagram"></a>
+                    <a href="#"><img src="Главная/vk.png" alt="VK"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
