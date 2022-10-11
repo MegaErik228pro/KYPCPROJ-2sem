@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товар</title>
+    <link rel="stylesheet" href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\product.css">
+    <link rel="icon" sizes="120x120" href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Логотип\shortcut_icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="superContainer">
+        <!--HEADER-->
+        <header>
+            <!--TOP BAR-->
+            <div class="top-bar">
+                <div class="wrap">
+                    <!--LEFT SIDE-->
+                    <div class="top-bar-left-side">
+                        <ul class="top-bar-dropdown">
+                            <li>
+                                <a href="#">Русский</a>
+                                <ul>
+                                    <li><a href="#">Русский</a></li>
+                                    <li><a href="#">Русский</a></li>
+                                    <li><a href="#">Русский</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="top-bar-dropdown">  
+                            <li>
+                                <a href="#">BYN</a>
+                                <ul>
+                                    <li><a href="#">BYN</a></li>
+                                    <li><a href="#">BYN</a></li>
+                                    <li><a href="#">BYN</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--RIGHT SIDE-->
+                    <div class="top-bar-right-side">
+                        <div class="svg-icon">
+                            <img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Иконки\профиль.svg" alt="Icon"> 
+                        </div>
+                        <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\register.html">Регистрация</a>
+                        <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\logIn.html">Вход</a>   
+                    </div>
+                </div>
+            </div>
+            <!--BOTTOM BAR-->
+            <div class="bottom-bar">
+                    <div class="wrap">
+                        <div class="logo">
+                            <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\main.html"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Логотип\AVshop.svg" alt="Logo"></a> 
+                        </div>
+                        <div class="search">
+                            <div class="catalog">
+                                <ul class="bottom-bar-dropdown">
+                                    <li>
+                                        <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Каталог</a>
+                                        <ul>
+                                            <li>
+                                                <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Смартфоны, ТВ и электроника</a>
+                                                <ul>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Смартфоны, аксессуары</a></li>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Аудиотехника</a></li>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Портативная аудиотехника</a></li>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Фото, видеосъемка</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Компьютеры и периферия</a>
+                                                <ul>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Компьютерная техника</a></li>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Компьютерная периферия</a></li>
+                                                    <li><a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\search.html">Комплектующие</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <form>
+                                <input class="search_input" type="text" placeholder="Поиск..." required />
+                                <button type="submit" class="search_icon" value="Sumbit">
+                                    <img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Иконки\поиск.svg" alt="Search">
+                                </button>
+                            </form>
+                        </div>
+                        <div class="bottom-bar-right-side">
+                            <div class="svg_icon">
+                                <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\wishlist.html"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Иконки\лайк.svg" alt="Liked"></a>
+                            </div>
+                            <div class="svg_icon">
+                                <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\cart.html"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Иконки\корзина 2.svg" alt="Cart"></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--BOTTOM SHADOW-->
+            <div class="bottom-shadow"></div>            
+        </header>
+
+        <!--PRODUCT TOP-->
+        <section class="product-top">
+            <!--PRODUCT PHOTO-->
+            <div class="product-photo">
+                <div class="sim-slider">
+                    <ul class="sim-slider-list">
+                        <li><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Товары\apple_iphone_13_pro_max_GOLD1.jpg" alt="screen"></li>    <!-- это экран -->
+                        <li class="sim-slider-element"><img src="apple_iphone_13_pro_max_GREEN1.jpg" alt="photo1"></li>
+                        <li class="sim-slider-element"><img src="apple_iphone_13_pro_max_GREEN1.jpg" alt="photo2"></li>
+                    </ul>
+                    <div class="sim-slider-dots"></div>
+                </div>
+            </div>
+            <!--PRODUCT INFO-->
+            <div class="product-info">
+                <div class="product-name-all">
+                    <a class="product-name">iPhone 13 Pro Max</a>
+                    <img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Иконки\лайк.svg" alt="Like" />
+                </div>
+                <a class="info">1 SIM, iOS, экран 6.7 ", OLED, 1284x2778, Apple A15 Bionic, оперативная память 6 Гб, встроенная память 128 Гб, камера 12 Мп.</a>
+                <div class="memory">
+                    <a>Встроенная память</a>
+                    <div class="var-all">
+                        <a class="var m1" href="product_green.html">128гб</a>
+                        <a class="var m2" href="product_green256.html">256гб</a>
+                        <a class="var m3" href="product_green512.html">512гб</a>
+                        <a class="var m4 m-active">1тб</a>
+                    </div>
+                </div>
+                <div class="color">
+                    <a>Цвет корпуса</a>
+                    <div class="var-all">
+                        <a class="var c1" href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Товары\product_black.html"></a>
+                        <a class="var c2" href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Товары\product_silver.html"></a>
+                        <a class="var c3" href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\product.html"></a>
+                        <a class="var c4 c-active"></a>
+                        <a class="var c5" href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Товары\product_blue.html"></a>
+                    </div>
+                </div>
+                <div class="to-cart">
+                    <a class="price">5 600,00BYN</a>
+                    <button>В корзину</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- подключение слайдера -->
+        <script src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\sim-slider.js"></script>
+        <!-- вызов слайдера -->
+        <script>new Sim()</script>
+
+        <!--PRODUCT BOTTOM-->
+        <section class="product-bottom">
+            <a>Характеристики</a>
+            <table class="characteristics">
+                <tr>
+                    <td>Дата выхода</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>Тип устройства</td>
+                    <td>Смартфон</td>
+                </tr>
+                <tr>
+                    <td>Платформа</td>
+                    <td>iOS</td>
+                </tr>
+                <tr>
+                    <td>Серия</td>
+                    <td>iPhone 13 Pro Max</td>
+                </tr>
+                <tr>
+                    <td>Версия ОС</td>
+                    <td>iOS 15</td>
+                </tr>
+                <tr>
+                    <td>Стандарт связи</td>
+                    <td>5G; 4G (LTE); 3G (UMTS); 2G (GSM)</td>
+                </tr>
+                <tr>
+                    <td>Количество SIM-карт</td>
+                    <td>1 SIM</td>
+                </tr>
+                <tr>
+                    <td>Тип SIM-карты</td>
+                    <td>Nano-SIM; eSIM</td>
+                </tr>
+
+                <tr>
+                    <td>Диагональ экрана, "</td>
+                    <td>6.7</td>
+                </tr>
+                <tr>
+                    <td>Разрешение экрана, точек</td>
+                    <td>1284x2778</td>
+                </tr>
+                <tr>
+                    <td>Технология экрана</td>
+                    <td>OLED (Super Retina XDR)</td>
+                </tr>
+                <tr>
+                    <td>Частота обновления экрана</td>
+                    <td>120 Гц</td>
+                </tr>
+                <tr>
+                    <td>Оперативная память</td>
+                    <td>6 Гб</td>
+                </tr>
+                <tr>
+                    <td>Встроенная память</td>
+                    <td>128 Гб</td>
+                </tr>
+                <tr>
+                    <td>Количество основных камер</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Разрешение основной камеры, Мп</td>
+                    <td>12</td>
+                </tr>
+            </table>
+        </section>
+
+        <!--SIMILAR-->
+        <section class="similar">
+            <a>Похожее</a>
+            <div class="product-all">
+                <div class="product"> 
+                    <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\product.html" class="link">
+                        <div class="photo"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Главная\apple_iphone_13_pro_max_128gb.jpg"></div>
+                        <p class="price">3490BYN</p>
+                        <p class="name">iPhone 13 Pro Max</p>
+                    </a>
+                </div>
+                <div class="product"> 
+                    <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\product.html" class="link">
+                        <div class="photo"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Главная\apple_iphone_13_pro_max_128gb.jpg"></div>
+                        <p class="price">3490BYN</p>
+                        <p class="name">iPhone 13 Pro Max</p>
+                    </a>
+                </div>
+                <div class="product"> 
+                    <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\product.html" class="link">
+                        <div class="photo"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Главная\apple_iphone_13_pro_max_128gb.jpg"></div>
+                        <p class="price">3490BYN</p>
+                        <p class="name">iPhone 13 Pro Max</p>
+                    </a>
+                </div>
+                <div class="product"> 
+                    <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\product.html" class="link">
+                        <div class="photo"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Главная\apple_iphone_13_pro_max_128gb.jpg"></div>
+                        <p class="price">3490BYN</p>
+                        <p class="name">iPhone 13 Pro Max</p>
+                    </a>
+                </div>
+                <div class="product"> 
+                    <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\product.html" class="link">
+                        <div class="photo"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Главная\apple_iphone_13_pro_max_128gb.jpg"></div>
+                        <p class="price">3490BYN</p>
+                        <p class="name">iPhone 13 Pro Max</p>
+                    </a>
+                </div>
+                <div class="product"> 
+                    <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\product.html" class="link">
+                        <div class="photo"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Главная\apple_iphone_13_pro_max_128gb.jpg"></div>
+                        <p class="price">3490BYN</p>
+                        <p class="name">iPhone 13 Pro Max</p>
+                    </a>
+                </div>
+                <div class="product"> 
+                    <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\product.html" class="link">
+                        <div class="photo"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Главная\apple_iphone_13_pro_max_128gb.jpg"></div>
+                        <p class="price">3490BYN</p>
+                        <p class="name">iPhone 13 Pro Max</p>
+                    </a>
+                </div>
+                <div class="product"> 
+                    <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\product.html" class="link">
+                        <div class="photo"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Главная\apple_iphone_13_pro_max_128gb.jpg"></div>
+                        <p class="price">3490BYN</p>
+                        <p class="name">iPhone 13 Pro Max</p>
+                    </a>
+                </div>
+                <div class="product"> 
+                    <a href="C:\Users\Erik\Desktop\Курсовой проект\AVshop\product.html" class="link">
+                        <div class="photo"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Главная\apple_iphone_13_pro_max_128gb.jpg"></div>
+                        <p class="price">3490BYN</p>
+                        <p class="name">iPhone 13 Pro Max</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <footer>
+            <!--LOGO-->
+            <div class="logo">
+                <img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Логотип\AVshop.svg" alt="Logo"> 
+                <a>2003-2022</a>
+            </div>
+            <!--BUYER-->
+            <div class="buyer">
+                <a>Покупателю</a>
+                <ul>
+                    <li><a href="#">Права потребителя</a></li>
+                    <li><a href="#">Вопрос-ответ</a></li>
+                    <li><a href="#">Пользовательское соглашение</a></li>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+            <!--COMPANY-->
+            <div class="company">
+                <a>Компания</a>
+                <ul>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">О проекте</a></li>
+                    <li><a href="#">Наши партнёры</a></li>
+                    <li><a href="#">Обратная связь</a></li>
+                </ul>
+            </div>
+            <!--SELLER-->
+            <div class="seller">
+                <a>Продавцу</a>
+                <ul>
+                    <li><a href="#">Продавать на AVshop.by</a></li>
+                    <li><a href="#">Создать свой магазин</a></li>
+                    <li><a href="#">Реклама</a></li>
+                    <li><a href="#">Справка и FAQ</a></li>
+                </ul>
+            </div>
+            <!--CONTACTS-->
+            <div class="contacts">
+                <a>Контакты</a>
+                <a class="number">+375 (29) 330 05 06</a>
+                <div class="social">
+                    <a href="#"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Главная\inst.png" alt="Instagram"></a>
+                    <a href="#"><img src="C:\Users\Erik\Desktop\Курсовой проект\AVshop\Главная\vk.png" alt="VK"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
